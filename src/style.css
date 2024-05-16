@@ -1,0 +1,87 @@
+.componente1 { 
+
+    border: 4px solid #000000;
+    border-radius: 3px;
+    padding: 50px;
+    background-color: #282929;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  } 
+  
+.body,html {
+    background-color: rgb(55, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270vh;
+    color:beige;
+  }
+  
+  .imagen-perfil {
+    width: 220px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 120px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #74907f; 
+}
+
+button:active {
+    background-color: #3f5870;
+}
+
+.style1, .style2, .style3, .style4 {
+  width: 30%; 
+  margin: 20px auto; 
+  padding: 10px;
+  border: 1px solid black; 
+  box-sizing: border-box;
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+.style2{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-color{
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+p{
+  font-size: 32px;
+  font-weight: bold;
+  color:black
+}
+
+.span{
+  font-size: 32px;
+  margin: 25px auto;
+}
+
